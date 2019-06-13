@@ -24,7 +24,7 @@
           (click)="showArtist(artist)">
               <div class="media">
                 <img class="mr-3 rounded align-self-center img-fluid"
-                src="{{ 'assets/images/' + artist.shortname + '_tn.jpg'}}" alt=" {{ 'Photo of ' + artist.name }}">
+                [src]="'assets/images/' + artist.shortname + '_tn.jpg'" alt=" {{ 'Photo of ' + artist.name }}">
                 <div class="media-body align-self-center">
                   <h5 class="m-0">{{ artist.name }}</h5>
                   {{ artist.reknown }}
