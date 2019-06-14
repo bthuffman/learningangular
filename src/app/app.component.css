@@ -8,3 +8,7 @@
     left: 0;
     z-index: 10;
 }
+
+.img-fluid {
+    width: 70px;
+}
